@@ -9,6 +9,7 @@ class Jabatan extends CI_Controller
 	{
 		parent::__construct();
 		if ($this->session->userdata('logged_in')) {
+
 			$session_data = $this->session->userdata('logged_in');
 			$data['username'] = $session_data['username'];
 			$this->username['uname'] = $data['username'];
@@ -20,7 +21,9 @@ class Jabatan extends CI_Controller
 					redirect('welcome/false','refresh');
 				}
 			}
+
 		} else {
+
 			redirect('login','refresh');
 		}
 	}
