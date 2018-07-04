@@ -199,30 +199,16 @@ document.attachEvent('onmousemove', mouse);
                     <!-- SLIDESHOW -->
                     <div id="slideshow">
                         <div class="one">
-                            <h2><span>Assalamualaikum</span></h2>
-                            <p>Walaikumsalam Wr.Wb</p>
+                            <h2><span>RS.IBNU SINA</span></h2>
+                            <p>Jl.Mwar Melati</p>
                         </div>
                         <div class="two">
-                            <h2><span>ZALL_FUDDY_UYEE</span></h2>
-                            <p>HAMBA ALLAH SWT</p>
-                        </div>
-                        <div class="three">
-                            <h2><span>Jiujitsu</span></h2>
-                            <p>Osh</p>
-                        </div>
-                        <div class="four">
-                            <h2><span>Wassalamualaikum</span></h2>
-                            <p>Walaikumsalam </p>
+                            <h2><span>UGD 24JAM</span></h2>
+                            <p>Rs.Ibnu Sina</p>
                         </div>
                     </div>
                 </div>
-                <!-- LOGIN FORM -->
                 <div class="user">
-                    <!-- ACTIONS
-                    <div class="actions">
-                        <a class="help" href="#signup-tab-content">Sign Up</a><a class="faq" href="#login-tab-content">Login</a>
-                    </div>
-                    -->
                     <div class="form-wrap">
                         <!-- TABS -->
                       <div class="tabs">
