@@ -37,7 +37,6 @@
                         <tr class="success">
                             <th>Nomor Kamar</th>
                             <th>Tipe Kamar</th>
-							<th>tgl masuk</th>
                             <th>Harga</th>
                             <th>Lokasi</th>
                             <th><center>Pilih Kamar</center></th>
