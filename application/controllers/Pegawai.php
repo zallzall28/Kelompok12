@@ -1,35 +1,20 @@
-<?php 
-/**
- * summary
- */
-class Pegawai extends CI_Controller
-{
-	private $username= array();
-    public function __construct()
-	{
-		parent::__construct();
-		if ($this->session->userdata('logged_in')) {
-			$session_data = $this->session->userdata('logged_in');
-			$data['username'] = $session_data['username'];
-			$this->username['uname'] = $data['username'];
-			$data['level'] = $session_data['level'];
-			$current_controller = $this->router->fetch_class();
-			$this->load->library('acl');
-			if (! $this->acl->is_public($current_controller)) {
-				if (! $this->acl->is_allowed($current_controller, $data['level'])) {
-					redirect('welcome/false','refresh');
-				}
-			}
-		} else {
-			redirect('login','refresh');
-		}
-	}
-
-    public function index() {
-    	$this->load->model('pegawai_model');
-    	$data['pegawai_list'] = $this->pegawai_model->getDataPegawaiSemua();
-    	$this->load->view('navbar', $this->username);
-    	$this->load->view('pegawai', $data);
-    }
-}
-?>
+<?php
+ defined('BASEPATH') OR exit('No direct script access allowed');
+ 
+ class Pegawai extends CI_Controller {
+ 
+ 	public function __construct()
+ 	{
+ 		parent::__construct();
+ 		if($this->session->userdata('logged_in')){
+ 			$session_data = $this->session->userdata('logged_in');
+ 			$data['username'] = $session_data['username'];
+ 		}else{
+ 			redirect('login','refresh');
+ 		}
+ 	}
+ 
+ }
+ 
+ /* End of file Pegawai.php */
+ /* Location: ./application/controllers/Pegawai.php */ ?>
