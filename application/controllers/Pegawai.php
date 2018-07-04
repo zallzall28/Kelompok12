@@ -6,17 +6,15 @@
  	public function __construct()
  	{
  		parent::__construct();
-		
  		if($this->session->userdata('logged_in')){
-		
  			$session_data = $this->session->userdata('logged_in');
-			
- 			$data['username'] = $session_data['username'] :
-			
+ 			$data['username'] = $session_data['username'];
  		}else{
-		
  			redirect('login','refresh');
  		}
  	}
  
  }
+ 
+ /* End of file Pegawai.php */
+ /* Location: ./application/controllers/Pegawai.php */ ?>
