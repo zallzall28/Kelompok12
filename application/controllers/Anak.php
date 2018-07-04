@@ -5,10 +5,13 @@
 class Anak extends CI_Controller
 {
 	private $username = array();
+
     public function __construct()
 	{
 		parent::__construct();
+
 		if ($this->session->userdata('logged_in')) {
+
 			$session_data = $this->session->userdata('logged_in');
 			$data['username'] = $session_data['username'];
 			$this->username['uname'] = $data['username'];
@@ -26,6 +29,7 @@ class Anak extends CI_Controller
 	}
 
     public function index() {
+
     	$this->load->model('anak_model');
     	$data['anak_list'] = $this->anak_model->getDataAnakSemua();
     	$this->load->view('navbar', $this->username);
