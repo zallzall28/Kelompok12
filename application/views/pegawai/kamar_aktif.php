@@ -87,23 +87,11 @@
       <a href="<?php echo site_url()?>/pegawai/dataKamar/" class="list-group-item"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Data Kamar<span class="badge"><?php echo $nKamar ?></span></a>
     </div>
 </div>
-
-<!--Latest User-->
 	<div class="container">
  <div class=" col-md-9 col-lg-9"> 
       <div id="jsGrid"></div>
   </div>
 </div>
-
-
-
-  <footer id="footer">
-    <p>CodeIgniter 2018</p>
-  </footer>
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
 </section>
   
   </body>

@@ -160,15 +160,5 @@
     </div>
 
 </section>
-
-
-  <footer id="footer">
-    <p>CodeIgniter 2018</p>
-  </footer>
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-  
   </body>
 </html>

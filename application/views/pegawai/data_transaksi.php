@@ -254,21 +254,11 @@ body{
               <td><a href="<?php echo site_url() ?>/transaksi/hapusTransaksi/<?php echo $key->id_transaksi ?>" class="pull-right"><button type="button" class="btn btn-warning"><i class="glyphicon glyphicon-remove"></i>  Delete</button></td></a>
             </tr>
         <?php } ?>
-    
         </tbody>
       </table>
     </div>
 </div>
 </div>
-
-  <footer id="footer">
-    <p>CodeIgniter 2018</p>
-  </footer>
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
 </section>
   </body>
   

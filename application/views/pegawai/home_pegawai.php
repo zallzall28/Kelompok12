@@ -95,41 +95,32 @@
       </div>
       <div class="col-md-9">
           <div class="panel panel-default">
-  <div class="panel-heading" style="background-color:  #095f59;">
-    <h3 class="panel-title"><div class="text-center">Aktivitas Website </div></h3>
+  <div class="panel-heading" style="background-color:  #87CEFA ;">
+    <h3 class="panel-title"><div class="text-left">Aktivitas Website </div></h3>
   </div>
 
   <div class="panel-body">
    <div class="col-md-3">
-     <div class="well dash-box">
       <a href="<?php echo site_url()?>/pegawai/kamarAktif">
-       <h2><span class="glyphicon glyphicon-user" aria-hidden="true"></span> </h2>
-       <h4>Kelola Kamar</h4>
-       <br>
+       <h4 class="well dash-box"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>Kelola Kamar</h4>
       </a>
-     </div>
-   </div>
-    
-   <div class="col-md-3">
-     <div class="well dash-box">
+      <div>
       <a href="<?php echo site_url()?>/pegawai/createPasien">
-       <h2><span class="glyphicon glyphicon-user" aria-hidden="true"></span> </h2>
-       <h4>Pendaftaran Pasien</h4>
+       <h4 class="well dash-box"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>Pendaftaran Pasien</h4>
       </a>
-     </div>
-   </div>
+   
+
    <?php if($tersedia>0){?>
-   <div class="col-md-3" data-toggle="modal" data-target="#myModal">
+   <div data-toggle="modal" data-target="#myModal">
     <?php }else{ ?>
-   <div class="col-md-3" data-toggle="modal" data-target="#myModal1">
+   <div data-toggle="modal" data-target="#myModal1">
      <?php }?>
 
      <a href="#">
-     <div class="well dash-box">
-       <h2><span class="glyphicon glyphicon-user" aria-hidden="true"></span> </h2>
-       <h4>Daftar Kamar</h4>
+       <h4 class="well dash-box"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>Daftar Kamar</h4>
       </a>
      </div>
+   </div>
    </div>
 
    
@@ -221,11 +212,10 @@
 </div>
 <!--Latest User-->
 <div class="panel panel-default">
-  <div class="panel-heading"style="background-color:  #095f59;>
+  <div class="panel-heading"style="background-color:  #87CEFA ;>
     <h3 class="panel-title">Latest Users</h3>
   </div>
   <div class="panel-body">
-    <div class="col-md-5">
      <div class="well dash-box">
        <h2><span class="glyphicon glyphicon-user" aria-hidden="true"></span> </h2>
 
@@ -256,15 +246,6 @@
     </div>
   </div>
 </section>
-
-
-  <footer id="footer">
-    <p>CodeIgniter 2018</p>
-  </footer>
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     
     <script src="dist/js/bootstrap.min.js"></script>
