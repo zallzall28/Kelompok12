@@ -1,4 +1,5 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
 /**
  * CI-ACL
  * Provides an Access Control List for Codeigniter  
@@ -27,6 +28,7 @@
  * @version 1.0
  * 
  */
+
 /* ----------------------------------------------------------
  *
  * This file defines which path is public or not.
@@ -46,37 +48,33 @@
  * );
  *
  * ---------------------------------------------------------- */
+
+
 /* -----------------------------
  * YOU CAN CHANGE FROM HERE.
  * ----------------------------- */
 $acl = array(
+
 	/* WELCOME */
-	'login/index' => array(
+
+	'welcome/index' => array(
 		'public'
 	),
-	'welcome' => array(
-		'user' => true,
+	'Pegawai'=>array(
 		'admin' => true,
+		'user' =>false,
 	),
-	'pegawai' => array(
-		'user' => true,
-		'admin' => true,
-	),
-	'jabatan' => array(
-		'user' => false,
-		'admin' => true,
-	),
-	'anak' => array(
-		'user' => true,
-		'admin' => true,
-	),
+
 );
+
 /* -----------------------------
  * YOU CAN CHANGE UP TO HERE.
  * ----------------------------- */
+
 /* -----------------------------
  * DO NOT CHANGE THE CODE BELOW
  * ----------------------------- */
 $config['acl'] = $acl;
+
 /* End of file acl.php */
 /* Location: ./application/config/acl.php */

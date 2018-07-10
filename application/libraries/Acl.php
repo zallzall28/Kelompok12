@@ -27,6 +27,7 @@
  * @version 1.0
  * 
  */
+
 class Acl {
 	
 	private $_rules = array();
@@ -39,6 +40,7 @@ class Acl {
 		$this->_rules = $this->_ci->config->item('acl');
 		
 	} // construct
+
 	/**
 	 * Set new rules into ACL.
 	 * 
@@ -97,8 +99,10 @@ class Acl {
 			}
 			
 		} // isset($this->_rules[$path])
+
 		return $result;			
 	} // is_allowed
+
 	/**
 	 * Verify exclusively if the given path is public to read.
 	 * @param String $path - Required.
@@ -110,5 +114,6 @@ class Acl {
 	} // is_public
 	
 } // class
+
 /* End of file Acl.php */
 /* Location: ./application/libraries/Acl.php */
