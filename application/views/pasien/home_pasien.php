@@ -74,10 +74,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
 						<li class="hidden"><a class="page-scroll" href="#page-top"></a> </li>
 						<li><a class="page-scroll" href="#home">Home</a></li>
-						<li><a class="page-scroll scroll" href="#about">About</a></li>
-						<li><a class="page-scroll " href="<?php echo site_url()?>/pasien/layanan">Layanan</a></li>
-						<li><a class="page-scroll " href="<?php echo site_url()?>/pasien/kamar">Daftar Kamar</a></li>
-						<li><a class="page-scroll scroll" href="#contact">Contact</a></li>
+						<li><a class="page-scroll " href="<?php echo site_url()?>/pasien/layanan">Data Kamar</a></li>
 						<li><a href="<?php echo site_url()?>/loginUser/logout">Logout</a></li>
 					</ul>
 				</div>
@@ -96,8 +93,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="flexslider">
 							<ul class="slides">
 								<li>
-									<div class=" w3l-info">
-										<div class="col-md-8  info-lleft-side">
+									<div class="w3l-info">
+										<div class="col-md-8  info-right-side">
 											<h4>Welcome To Hospital</h4>
 											<p>Vivamus sed porttitor felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
 												egestas.Sed lorem enim, rutrum quis diam nec.</p>
@@ -115,7 +112,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											<p>Vivamus sed porttitor felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
 												egestas.Sed lorem enim, rutrum quis diam nec.</p>
 										</div>
-										<div class=" col-md-4 w3layouts_more-buttn">
+										<div class=" col-md-1 w3layouts_more-buttn">
 											<a href="#" data-toggle="modal" data-target="#myModal">Read More</a>
 										</div>
 									</div>
@@ -167,7 +164,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="about" id="about">
 		<div class="container">
 			<div class="imgg-info-w3">
-				<div class="col-md-6 left-about-img">
+				<div class="col-md-6 right-about-img">
 
 					<img src="<?php echo base_url()?>assets/images/a1.jpg" class="img-responsive s1" alt="s1">
 				</div>
@@ -176,9 +173,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<h4>Tentang Kami </h4>
 						<p>Assalamualaikum Wr. Wb.
 <br><br>
-Puji syukur kami panjatkan kehadirat Allah SWT, atas Karunia dan Rahmat-Nya sehingga website Medically telah mendapat akreditsi tipe C untuk  pelayanan kesehatan kepada masyarakat.
+Puji syukur kami panjatkan kehadirat Allah SWT, atas Karunia dan Rahmat-Nya sehingga website RS.HANURA telah mendapat akreditsi tipe C untuk  pelayanan kesehatan kepada masyarakat.
 
-Website ini memuat seluruh informasi dan potensi yang dimiliki oleh Medically berupa sarana dan prasarana sebagai Rumah Sakit tipe C, kerjasama layanan kesehatan dan gambaran secara umum dari awal berdirinya Rumah Sakit Medically.
+Website ini memuat seluruh informasi dan potensi yang dimiliki oleh HANURA berupa sarana dan prasarana sebagai Rumah Sakit tipe C.
 <br>
 <br>
 Wassalamualaikum Wr. Wb.
@@ -282,18 +279,22 @@ Wassalamualaikum Wr. Wb.
 				</div>
 				<div class="contact-left">
 					<div class="address-contact-left ">
-						<h5>Address:</h5>
-						<p><span class="fa fa-home"></span> Malang </p>
+						<h5>Alamat:</h5>
+						<p><span class="fa fa-home"></span> Gresik </p>
 					</div>
 					<div class="address-contact-left ">
-						<h5>Phones:</h5>
+						<h5>Telp:</h5>
 						<p><span class="fa fa-phone"></span> +31 9898 999</p>
 						<p><span class="fa fa-phone"></span> +813 3046 666</p>
 					</div>
+						<div class="address-contact-left ">
+						<h5>Email:</h5>
+						<p><span class="fa fa-envelope"></span> <a href="mailto:info@example.com">hanura@gmail.com.co.id</a></p>
+					</div>
 				</div>
 			</div>
-			<div class=" col-md-5 contact-top">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126438.60094834752!2d112.58405792765772!3d-7.977619465897827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd62822063dc2fb%3A0x78879446481a4da2!2sMalang%2C+Malang+City%2C+East+Java%2C+Indonesia!5e0!3m2!1sen!2sin!4v1530497204263" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			<div class=" col-md-3 contact-top">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63338.61717377296!2d112.61791773030875!3d-7.164834963047084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd800504acb3253%3A0x25d71798cd652fb9!2sGresik%2C+Kec.+Gresik%2C+Kabupaten+Gresik%2C+Jawa+Timur!5e0!3m2!1sid!2sid!4v1531216142750" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 			</div>
 
 			<div class="clearfix"> </div>

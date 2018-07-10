@@ -8,7 +8,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html lang="zxx">
 
 <head>
-	<title>Medically a Medical Category Flat Bootstrap Responsive Web Template | Home :: w3layouts</title>
+	<title>RUMAH SAKIT HANURA</title>
 
 	<!--meta tags -->
 	<meta charset="UTF-8">
@@ -49,18 +49,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class=" head-wl">
 				<div class="agileinfo-social-grids">
 					<ul>
-						<li class="active"><font color="white" >Welcome, <?php echo $user['nama_pasien'] ?></font></li>
+						<li class="active"><font color="white" >Selamat Datang, <?php echo $user['nama_pasien'] ?></font></li>
 					</ul>
 				</div>
-				<div class="w3-header-top-right">
-					<div class="email-right">
-						<p><span class="fa fa-envelope" aria-hidden="true"></span> <a href="mailto:mail@example.com" class="info"> info@medically.co.id</a></p>
-
-					</div>
-					<div class="w3-header-top-right-text">
-
-						<p><span class="fa fa-phone" aria-hidden="true"></span> (031)798 456</p>
-					</div>
 					<div class="clearfix"> </div>
 				</div>
 				<div class="clearfix"> </div>
@@ -233,7 +224,7 @@ Medically awalnya didirikan semula untuk melayani perawatan dan pengobatan karya
 				</div>
 			</div>
 			<div class=" col-md-5 contact-top">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126438.60094834752!2d112.58405792765772!3d-7.977619465897827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd62822063dc2fb%3A0x78879446481a4da2!2sMalang%2C+Malang+City%2C+East+Java%2C+Indonesia!5e0!3m2!1sen!2sin!4v1530497204263" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63338.61717377296!2d112.61791773030875!3d-7.164834963047084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd800504acb3253%3A0x25d71798cd652fb9!2sGresik%2C+Kec.+Gresik%2C+Kabupaten+Gresik%2C+Jawa+Timur!5e0!3m2!1sid!2sid!4v1531216142750" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 			</div>
 
 			<div class="clearfix"> </div>
