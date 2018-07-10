@@ -8,7 +8,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html lang="zxx">
 
 <head>
-	<title>Medically a Medical Category Flat Bootstrap Responsive Web Template | Home :: w3layouts</title>
+	<title>RUMAH SAKIT HANURA</title>
 
 	<!--meta tags -->
 	<meta charset="UTF-8">
@@ -49,21 +49,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class=" head-wl">
 				<div class="agileinfo-social-grids">
 					<ul>
-						<li class="active"><font color="white" ><a href="<?php echo site_url()?>/pasien/profilePasien/<?php echo $user['username']?>"?>Welcome, <?php echo $user['nama_pasien'] ?></font></a></li>
+						<li class="active"><font color="white" ><a href="<?php echo site_url()?>/pasien/profilePasien/<?php echo $user['username']?>"?>Selamat Datang, <?php echo $user['nama_pasien'] ?></font></a></li>
 					</ul>
-				</div>
-				<div class="w3-header-top-right">
-					<div class="email-right">
-						<p><span class="fa fa-envelope" aria-hidden="true"></span> <a href="mailto:mail@example.com" class="info"> info@medically.co.id</a></p>
-
-					</div>
-					<div class="w3-header-top-right-text">
-
-						<p><span class="fa fa-phone" aria-hidden="true"></span> (031)798 456</p>
-
-					</div>
-
-					<div class="clearfix"> </div>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
@@ -79,7 +66,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-					<h1><a class="navbar-brand" href="home_pasien.php">Medically</a></h1>
+					<h1><a class="navbar-brand" href="home_pasien.php">HANURA</a></h1>
 				</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse navbar-ex1-collapse">
@@ -174,28 +161,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 	<!-- //modal -->
-
-	<!--about -->
-	<div class="agileits-banner-grids text-center">
-		<div class="banner-bottom-girds">
-			<div class="col-md-4  col-sm-4 clr1 agileits-banner-grid">
-				<span class="fa fa-heart banner-icon" aria-hidden="true"></span>
-				<h4>TENAGA YANG PROFESIONAL</h4>
-				<p>Kami berkomitmen untuk meningkatkan pengetahuan karyawan, sehingga mampu melaksanakan pelayanan yang profesional</p>
-
-			</div>
-			<div class="col-md-4 col-sm-4 clr2 agileits-banner-grid">
-				<span class="fa fa-ambulance banner-icon" aria-hidden="true"></span>
-				<h4>PELAYANAN PRIMA</h4>
-				<p>Kami berkomitmen untuk menjadi rumah sakit dengan pelayanan prima, dan menjadi pilihan utama masyarakat indonesia.</p>
-
-			</div>
-			<div class=" col-md-4 col-sm-4 clr3 agileits-banner-grid">
-				<span class="fa fa-heartbeat banner-icon" aria-hidden="true"></span>
-				<h4>PERALATAN YANG MODERN</h4>
-				<p>Kami berkomitmen untuk meningkatkan kualitas alat kedokteran yang memberikan nilai lebih bagi pelayanan kesehatan.</p>
-
-			</div>
 			<div class="clearfix"></div>
 		</div>
 	</div>
@@ -228,51 +193,6 @@ Wassalamualaikum Wr. Wb.
 		</div>
 	</div>
 	<!--//about -->
-	<!--services -->
-	<div class="services " id="service">
-		<div class="container">
-			<h3 class="title tit-clr">OUR FACILITIES</h3>
-			<div class="stats-info agileits w3layouts">
-				<div class="col-md-3 col-sm-3 col-xs-3 agileits w3layouts stats-grid stats-grid-1">
-					<div class="ser-icone"> <span class="fa fa-users font" aria-hidden="true"></span>
-					</div>
-					<div class=" agileits-w3layouts counter">3500</div>
-					<div class="stat-info-w3ls">
-						<h4 class="agileits w3layouts">Staff</h4>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-6 agileits w3layouts stats-grid stats-grid-2">
-					<div class="ser-icone"> <span class="fa fa-medkit font" aria-hidden="true"></span>
-					</div>
-					<div class=" agileits-w3layouts counter">650</div>
-					<div class="stat-info-w3ls">
-						<h4 class="agileits w3layouts ">Branches</h4>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-6 stats-grid agileits w3layouts stats-grid-3">
-					<div class="ser-icone"> <span class="fa fa-user-md font" aria-hidden="true"></span>
-					</div>
-					<div class=" agileits-w3layouts counter">1021</div>
-					<div class="stat-info-w3ls">
-						<h4 class="agileits w3layouts ">Doctors</h4>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-6 stats-grid agileits w3layouts stats-grid-4">
-					<div class="ser-icone"> <span class="fa fa-heart font" aria-hidden="true"></span>
-					</div>
-					<div class=" agileits-w3layouts counter">1010</div>
-					<div class="stat-info-w3ls">
-						<h4 class="agileits w3layouts">operations</h4>
-					</div>
-				</div>
-				<div class="clearfix"></div>
-			</div>
-		</div>
-	</div>
-	<!--//services -->
-	<!--gallery-->
-
-   
       <!-- Modal -->
   <div class="modal fade" id="myModal1" role="dialog">
     <div class="modal-dialog">
@@ -293,10 +213,6 @@ Wassalamualaikum Wr. Wb.
       
     </div>
   </div>
-
-
-
-
   <!-- Modal -->
   <div class="modal fade" id="daftar" role="dialog">
     <div class="modal-dialog">
@@ -356,10 +272,10 @@ Wassalamualaikum Wr. Wb.
 	<!--contact-->
 	<div class="contact" id="contact">
 		<div class="container">
-			<h3 class="title">CONTACT US</h3>
+			<h3 class="title">Kontak Kami</h3>
 
 			<div class=" col-md-7 contact-address">
-				<h4>Medically</h4>
+				<h4>RS.HANURA</h4>
 				<div class="para-left">
 					<p>Sebagai rumah sakit pilihan pertama yang berkualitas prima, kami menyediakan berbagai fasilitas layanan sesuai kebutuhan masyarakat dengan akses yang mudah dan ramah. 
 					</p>
@@ -371,12 +287,8 @@ Wassalamualaikum Wr. Wb.
 					</div>
 					<div class="address-contact-left ">
 						<h5>Phones:</h5>
-						<p><span class="fa fa-phone"></span> +9900887766</p>
-						<p><span class="fa fa-phone"></span> +11 222 333</p>
-					</div>
-					<div class="address-contact-left ">
-						<h5>Email:</h5>
-						<p><span class="fa fa-envelope"></span> <a href="mailto:info@example.com">info@medically.co.id</a></p>
+						<p><span class="fa fa-phone"></span> +31 9898 999</p>
+						<p><span class="fa fa-phone"></span> +813 3046 666</p>
 					</div>
 				</div>
 			</div>
@@ -394,54 +306,16 @@ Wassalamualaikum Wr. Wb.
 	<!--footer-->
 
 	<div class="footer">
-		<nav>
-			<ul class="nav-buttom">
-				<li><a class="page-scroll scroll" href="#home">Home</a></li>
-				<li><a class="page-scroll scroll" href="#about">About</a></li>
-				<li><a class="page-scroll " href="<?php echo site_url()?>/pasien/layanan">Layanan</a></li>
-				<li><a class="page-scroll " href="<?php echo site_url()?>/pasien/kamar">Daftar Kamar</a></li>
-				<li><a class="page-scroll scroll" href="#contact">Contact</a></li>
-			</ul>
-		</nav>
 		<div class="container">
 		<div class="colr-row col-md-6  ">
 			<div class="col-md-6 col-sm-6 col-xs-6  bottom-head bottm-grid">
-				<h2><a href="index.html">Medically</a></h2>
+				<h2><a href="index.html">HANURA</a></h2>
 				<span class="cap"></span>
 				<div class="clearfix"> </div>
 			</div>
-			
-			<div class="col-md-6 col-sm-6 col-xs-6 copyright bottm-grid">
-				<h3>Follow us</h3>
-				<div class="icons">
-					<ul>
-						<li><a href="#"><span class="fa fa-facebook"></span></a></li>
-						<li><a href="#"><span class="fa fa-twitter"></span></a></li>
-						<li><a href="#"><span class="fa fa-rss"></span></a></li>
-						<li><a href="#"><span class="fa fa-vk"></span></a></li>
-					</ul>
-
-				</div>
 				<div class="clearfix"> </div>
 			</div>
 			<div class="clearfix"> </div>
-			</div>
-			<div class="colr-row  col-md-6">
-			<div class="col-md-6 col-sm-6 col-xs-6 one bottm-grid">
-				<h3>About us</h3>
-				<p> Visi : Menjadi Rumah Sakit Pilihan Pertama Yang Berkualitas Prima 
-				    Motto : Layanan Prima adalah Komitmen Kami </p>
-				<div class="clearfix"></div>
-			</div>
-			<div class="col-md-6 col-sm-6 col-xs-6 three bottm-grid">
-				<h3>Contact</h3>
-				<div class="addres up-out">
-					<p><span class="fa fa-map-marker icons-left" aria-hidden="true"></span>Malang</p>
-
-					<p><span class="fa fa-phone icons-left" aria-hidden="true"></span>Call us:+9900887766</p>
-
-				</div>
-				<div class="clearfix"> </div>
 			</div>
 			<!-- //Copyright -->
 			<div class="clearfix"> </div>
@@ -449,7 +323,7 @@ Wassalamualaikum Wr. Wb.
 		</div>
 	</div>
 	<footer>
-		<p>&copy;2018 Medically. All Rights Reserved</a></p>
+		<p>&copy;Rumah Sakit HANURA</a></p>
 	</footer>
 	<!--menu script-->
 	<script type='text/javascript' src='<?php echo base_url(); ?>assets/js/jquery-2.2.3.min.js'></script>
@@ -469,17 +343,6 @@ Wassalamualaikum Wr. Wb.
 			});
 		});
 	</script>
-	<!--End-slider-script-->
-	<!-- OnScroll-Number-Increase-JavaScript -->
-	<script src="<?php echo base_url()?>assets/js/jquery.waypoints.min.js"></script>
-	<script src="<?php echo base_url()?>assets/js/jquery.countup.js"></script>
-	<script>
-		$('.counter').countUp();
-	</script>
-	<!-- //OnScroll-Number-Increase-JavaScript -->
-	<script src="<?php echo base_url()?>assets/js/jquery.chocolat.js"></script>
-
-	<!--light-box-files -->
 	<script type="text/javascript">
 		$(function () {
 			$('.w3_agile_gallery_grid a').Chocolat();
