@@ -36,7 +36,7 @@
 body, html{
      height: 100%;
  	background-repeat: no-repeat;
- 	background:url(https://i.ytimg.com/vi/4kfXjatgeEU/maxresdefault.jpg);
+ 	background:url(http://smartplusconsulting.com/wp-content/uploads/rumah-sakit.gif);
  	font-family: 'Oxygen', sans-serif;
 	    background-size: cover;
 }
@@ -53,7 +53,7 @@ h1.title {
 
 hr{
 	width: 10%;
-	color: #fff;
+	color: #0000;
 }
 
 .form-group{
@@ -112,13 +112,13 @@ padding: 8px 12px !important;
     background: linear-gradient(top, #f5f5f5 0%, #eeeeee 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#eeeeee', GradientType=0);
 }
-.main-center{
+.main-left{
  	margin-top: 30px;
  	margin: 0 auto;
  	max-width: 400px;
     padding: 10px 40px;
-	background:#009edf;
-	    color: #FFF;
+	background:#fffa05;
+	    color: #0000;
     text-shadow: none;
 	-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.31);
 -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.31);
@@ -126,7 +126,7 @@ box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.31);
 
 }
 span.input-group-addon i {
-    color: #009edf;
+    color: #fffa05;
     font-size: 17px;
 }
 
@@ -144,9 +144,9 @@ span.input-group-addon i {
 		<div class="container">
 			<div class="row main">
 				<?php echo form_open_multipart('LoginUser/insertUser'); ?>			    	
-				<div class="main-login main-center">
+				<div class="main-login main-left">
 					<?php echo validation_errors(); ?>
-				<h5>Sign up once and watch any of our service.</h5>
+				<h5>Daftar Sebagai</h5>
 					<form class="" method="post" action="#">
 						
 						
@@ -155,7 +155,7 @@ span.input-group-addon i {
 							<div class="cols-sm-10">
 								<div class="input-group">
 									<span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
-									<input type="text" class="form-control" name="username" id="username"  placeholder="Enter your Username"/>
+									<input type="text" class="form-control" name="username" id="username"  placeholder="Masukkan username"/>
 								</div>
 							</div>
 						</div>
@@ -165,7 +165,7 @@ span.input-group-addon i {
 							<div class="cols-sm-10">
 								<div class="input-group">
 									<span class="input-group-addon"><i class="fa fa-unlock-alt" aria-hidden="true"></i></span>
-									<input type="password" class="form-control" name="password" id="password"  placeholder="Enter your Password"/>
+									<input type="password" class="form-control" name="password" id="password"  placeholder="Masukkan Password"/>
 								</div>
 							</div>
 						</div>
@@ -175,7 +175,7 @@ span.input-group-addon i {
 							<div class="cols-sm-10">
 								<div class="input-group">
 									<span class="input-group-addon"><i class="fa fa-child" aria-hidden="true"></i></span>
-									<input type="text" class="form-control" name="nama" id="nama"  placeholder="Enter your Name"/>
+									<input type="text" class="form-control" name="nama" id="nama"  placeholder="Masukkan Nama Lengkap"/>
 								</div>
 							</div>
 						</div>
@@ -185,7 +185,7 @@ span.input-group-addon i {
 							<div class="cols-sm-10">
 								<div class="input-group">
 									<span class="input-group-addon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
-									<input type="text" class="form-control" name="alamat" id="alamat"  placeholder="Enter your Address"/>
+									<input type="text" class="form-control" name="alamat" id="alamat"  placeholder="Masukkan Alamat"/>
 								</div>
 							</div>
 						</div>
@@ -195,7 +195,7 @@ span.input-group-addon i {
 							<div class="cols-sm-10">
 								<div class="input-group">
 									<span class="input-group-addon"><i class="fa fa-phone-square" aria-hidden="true"></i></span>
-									<input type="text" class="form-control" name="no_hp" id="no_hp"  placeholder="Enter your Phone Number"/>
+									<input type="text" class="form-control" name="no_hp" id="no_hp"  placeholder="Masukkan Nomor Hp"/>
 								</div>
 							</div>
 						</div>

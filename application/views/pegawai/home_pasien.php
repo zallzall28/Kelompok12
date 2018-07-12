@@ -119,6 +119,9 @@
 							<td><a href="<?php echo site_url() ?>/pegawai/updatePasien/<?php echo $key['id_pasien'] ?>" class="pull-right"><button type="button" class="btn btn-info" ><i class="glyphicon glyphicon-upload"></i> Update</button></td></a>
 							<td><a href="<?php echo site_url() ?>/pegawai/deletePasien/<?php echo $key['username'] ?>" class="pull-right"><button type="button" class="btn btn-warning"><i class="glyphicon glyphicon-remove"></i>  Delete</button></td></a>
               <td><a href="<?php echo site_url() ?>/pegawai/detailsPasien/<?php echo $key['id_pasien'] ?>" class="pull-right"><button type="button" class="btn btn-success"><i class="glyphicon glyphicon-search"></i>  Lihat Data Pasien</button></td></a>
+              <td><a href="index.php"> 
+    <button onClick="window.print();">Print</button> 
+    </a></td>
 						</tr>
 				<?php } ?>
 		

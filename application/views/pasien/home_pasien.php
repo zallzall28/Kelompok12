@@ -259,44 +259,6 @@ Wassalamualaikum Wr. Wb.
 </div>
 </div>
 </a>
-
-	<!--//gallery-->
-	<!-- team-->
-	<!-- //testimonials-->
-	<!--subscribe-->
-
-	<!--//subscribe-->
-	<!--contact-->
-	<div class="contact" id="contact">
-		<div class="container">
-			<h3 class="title">Kontak Kami</h3>
-
-			<div class=" col-md-7 contact-address">
-				<h4>RS.HANURA</h4>
-				<div class="para-left">
-					<p>Sebagai rumah sakit pilihan pertama yang berkualitas prima, kami menyediakan berbagai fasilitas layanan sesuai kebutuhan masyarakat dengan akses yang mudah dan ramah. 
-					</p>
-				</div>
-				<div class="contact-left">
-					<div class="address-contact-left ">
-						<h5>Alamat:</h5>
-						<p><span class="fa fa-home"></span> Gresik </p>
-					</div>
-					<div class="address-contact-left ">
-						<h5>Telp:</h5>
-						<p><span class="fa fa-phone"></span> +31 9898 999</p>
-						<p><span class="fa fa-phone"></span> +813 3046 666</p>
-					</div>
-						<div class="address-contact-left ">
-						<h5>Email:</h5>
-						<p><span class="fa fa-envelope"></span> <a href="mailto:info@example.com">hanura@gmail.com.co.id</a></p>
-					</div>
-				</div>
-			</div>
-			<div class=" col-md-3 contact-top">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63338.61717377296!2d112.61791773030875!3d-7.164834963047084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd800504acb3253%3A0x25d71798cd652fb9!2sGresik%2C+Kec.+Gresik%2C+Kabupaten+Gresik%2C+Jawa+Timur!5e0!3m2!1sid!2sid!4v1531216142750" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-			</div>
-
 			<div class="clearfix"> </div>
 
 

@@ -113,6 +113,7 @@
       </tbody>
       <button type="submit" class="btn btn-primary"><i class="glyphicon glyphicon-plus"></i>  Submit</button>
       <?php echo form_close(); ?>
+      <a href="javascript:history.go(-1)" class="btn btn-primary">Back</a>
   </div>
 
  </table>

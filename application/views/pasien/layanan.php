@@ -110,6 +110,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <th>Id Kamar</th>
             <th>Nama Kamar</th>
             <th>Harga</th>
+            <th>Keterangan</th>
             <th>Foto</th>
           
 
@@ -123,6 +124,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
               <td><?php echo $key->id_kamar ?></td>
               <td><?php echo $key->nama_kamar ?></td>
               <td><?php echo $key->harga ?></td>
+              <td><?php echo $key->ketersediaan ?></td>
               <td><img src="<?php echo base_url()?>/assets/uploads/kamar/<?php echo $key->foto?>" alt="" width=175 height="125"></td>
 
             </tr>
