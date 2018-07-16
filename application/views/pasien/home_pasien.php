@@ -22,10 +22,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!--//meta tags ends here-->
 	<!--booststrap-->
 <link href="<?php echo base_url()?>assets/css/bootstrap1.css" rel="stylesheet" type="text/css" media="all">
-
-	<!--//booststrap end-->
-
-	<!-- font-awesome icons -->
 	<link href="<?php echo base_url()?>assets/css/font-awesome.css" rel="stylesheet">
 	<!-- //font-awesome icons -->
 	<link rel="stylesheet" href="<?php echo base_url()?>assets/css/chocolat.css" type="text/css" media="screen" />
@@ -95,12 +91,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<li>
 									<div class="w3l-info">
 										<div class="col-md-8  info-right-side">
-											<h4>Welcome To Hospital</h4>
-											<p>Vivamus sed porttitor felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
-												egestas.Sed lorem enim, rutrum quis diam nec.</p>
-										</div>
-										<div class=" col-md-4 w3layouts_more-buttn">
-											<a href="#" data-toggle="modal" data-target="#myModal">Read More</a>
+											<h4>Selamat Datang di Rumah Sakit HANURA</h4>
 										</div>
 									</div>
 
@@ -108,24 +99,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<li>
 									<div class=" w3l-info">
 										<div class="col-md-8 info-lleft-side">
-											<h4>Better Health Care</h4>
-											<p>Vivamus sed porttitor felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
-												egestas.Sed lorem enim, rutrum quis diam nec.</p>
-										</div>
-										<div class=" col-md-1 w3layouts_more-buttn">
-											<a href="#" data-toggle="modal" data-target="#myModal">Read More</a>
-										</div>
-									</div>
-								</li>
-								<li>
-									<div class=" w3l-info">
-										<div class="col-md-8 info-lleft-side">
-											<h4>Get YourSelf Fixed</h4>
-											<p>Vivamus sed porttitor felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
-												egestas.Sed lorem enim, rutrum quis diam nec.</p>
-										</div>
-										<div class=" col-md-4 w3layouts_more-buttn">
-											<a href="#" data-toggle="modal" data-target="#myModal">Read More</a>
+											<h4>UGD</h4>
+											<p> Akses layanan bantuan 24 jam</p>
 										</div>
 									</div>
 								</li>
@@ -137,27 +112,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 		<div class="clearfix"> </div>
 	</div>
-
-	<!-- //header -->
-	<!-- modal -->
-	<div class="modal about-modal fade" id="myModal" tabindex="-1" role="dialog">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-					<h4 class="modal-title">Medically</h4>
-				</div>
-				<div class="modal-body">
-					<div class="out-info">
-						<img src="<?php echo base_url()?>assets/images/g1.jpg?>" alt="" />
-						<p>Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae,
-							eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellu</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- //modal -->
 			<div class="clearfix"></div>
 		</div>
 	</div>
@@ -173,9 +127,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<h4>Tentang Kami </h4>
 						<p>Assalamualaikum Wr. Wb.
 <br><br>
-Puji syukur kami panjatkan kehadirat Allah SWT, atas Karunia dan Rahmat-Nya sehingga website RS.HANURA telah mendapat akreditsi tipe C untuk  pelayanan kesehatan kepada masyarakat.
-
-Website ini memuat seluruh informasi dan potensi yang dimiliki oleh HANURA berupa sarana dan prasarana sebagai Rumah Sakit tipe C.
+Rumah Sakit Pusat Pertamina adalah suatu organisasi layanan kesehatan yang tidak akan pernah menjadi suatu organisasi yang solitaire atau terisolir dari lingkungannya, akan tetapi merupakan organisasi yang hidup dalam lingkungan dinamis dan sarat dengan dinamika persaingan.
 <br>
 <br>
 Wassalamualaikum Wr. Wb.
