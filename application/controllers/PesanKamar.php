@@ -49,7 +49,37 @@ class PesanKamar extends CI_Controller {
 		}	
 	}
 
+	public function addKamarPasien()
+	{
+		$this->load->model('Kamar_model');
+		$this->load->helper('url','form');
+		$this->load->library('form_validation');
+		$this->form_validation->set_rules('kamar_kosong', 'Kamar', 'trim|required');
+		$this->form_validation->set_rules('nama_pasien', 'Pasien', 'trim|required');
 
+
+		$data['kamar']=$this->Kamar_model->kamarKosong();
+
+		//$this->load->view('pegawai/daftar_kamar',$data);
+		if(!$data['kamar']){
+			echo "<script>alert('Seluruh Kamar Telah Terpakai')</script>";
+			redirect('pasien/kamar','refresh');
+		}else {
+			if ($this->form_validation->run() === false) {
+				echo "<script>alert('pendaftaran kamar gagal')</script>";
+				redirect('pasien/kamar','refresh');
+			}else{
+				$nama_kamar=$this->input->post('kamar_kosong');
+				$this->Kamar_model->addKamarPasien();
+				$this->Kamar_model->ubahStatusPasien();
+				$rows=$this->Kamar_model->hargaKamar($nama_kamar);
+				$harga =  $rows['harga'];
+				$this->Kamar_model->buatTransaksi($harga);
+				echo "<script>alert('pendaftaran kamar telah berhasil')</script>";
+				redirect('pasien/kamar','refresh');
+			}
+		}	
+	}
 
 }
 

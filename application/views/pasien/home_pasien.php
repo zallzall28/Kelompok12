@@ -70,7 +70,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
 						<li class="hidden"><a class="page-scroll" href="#page-top"></a> </li>
 						<li><a class="page-scroll" href="#home">Home</a></li>
-						<li><a class="page-scroll " href="<?php echo site_url()?>/pasien/layanan">Data Kamar</a></li>
+						<li><a class="page-scroll " href="<?php echo site_url()?>/pasien/layanan">Informasi kamar</a></li>
+						<li><a class="page-scroll " href="<?php echo site_url()?>/pasien/kamar">Daftar Kamar</a></li>
 						<li><a href="<?php echo site_url()?>/loginUser/logout">Logout</a></li>
 					</ul>
 				</div>

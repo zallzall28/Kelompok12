@@ -75,11 +75,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<ul class="nav navbar-nav navbar-right">
 						<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
 						<li class="hidden"><a class="page-scroll" href="#page-top"></a> </li>
-						<li><a class="page-scroll" href="<?php echo site_url()?>/pasien/index">Home</a></li>
-						<li><a class="page-scroll scroll" href="#home">About</a></li>
-						<li><a class="page-scroll " href="<?php echo site_url()?>/pasien/layanan">Layanan</a></li>
+						<li><a class="page-scroll" href="<?php echo site_url()?>/pasien/home_pasien">Home</a></li>
+						<li><a class="page-scroll " href="<?php echo site_url()?>/pasien/layanan">Informasi kamar</a></li>
 						<li><a class="page-scroll " href="<?php echo site_url()?>/pasien/kamar">Daftar Kamar</a></li>
-						<li><a class="page-scroll scroll" href="#contact">Contact</a></li>
 						<li><a href="<?php echo site_url()?>/loginUser/logout">Logout</a></li>
 					</ul>
 				</div>

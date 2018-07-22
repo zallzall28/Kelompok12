@@ -49,19 +49,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class=" head-wl">
 				<div class="agileinfo-social-grids">
 					<ul>
-						<li class="active"><font color="white" ><a href="<?php echo site_url()?>/pasien/profilePasien/<?php echo $user['username']?>"?>Welcome, <?php echo $user['nama_pasien'] ?></font></a></li>
+						<li class="active"><font color="white" ><a href="<?php echo site_url()?>/pasien/profilePasien/<?php echo $user['username']?>"?>Selamat Datang, <?php echo $user['nama_pasien'] ?></font></a></li>
 					</ul>
-				</div>
-				<div class="w3-header-top-right">
-					<div class="email-right">
-						<p><span class="fa fa-envelope" aria-hidden="true"></span> <a href="mailto:mail@example.com" class="info"> info@medically.co.id</a></p>
-
-					</div>
-					<div class="w3-header-top-right-text">
-
-						<p><span class="fa fa-phone" aria-hidden="true"></span> (031)798 456</p>
-					</div>
-					<div class="clearfix"> </div>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
@@ -77,108 +66,44 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-					<h1><a class="navbar-brand " href="home_pasien.php">Medically</a></h1>
+					<h1><a class="navbar-brand " href="home_pasien.php">Hanura</a></h1>
 				</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse navbar-ex1-collapse">
 					<ul class="nav navbar-nav navbar-right">
 						<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
 						<li class="hidden"><a class="page-scroll" href="#page-top"></a> </li>
-						<li><a class="page-scroll" href="<?php echo site_url()?>/pasien/index">Home</a></li>
-						<li><a class="page-scroll scroll" href="#home">About</a></li>
-						<li><a class="page-scroll " href="<?php echo site_url()?>/pasien/layanan">Layanan</a></li>
+						<li><a class="page-scroll" href="#home">Home</a></li>
+						<li><a class="page-scroll " href="<?php echo site_url()?>/pasien/layanan">Informasi kamar</a></li>
 						<li><a class="page-scroll " href="<?php echo site_url()?>/pasien/kamar">Daftar Kamar</a></li>
-						<li><a class="page-scroll scroll" href="#contact">Contact</a></li>
 						<li><a href="<?php echo site_url()?>/loginUser/logout">Logout</a></li>
 					</ul>
 				</div>
 				<!-- /.navbar-collapse -->
 			</nav>
 		</div>
-
-
-		<div class="container">
-
 			<!-- header -->
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
 			<header>
 
-				<div class="flexslider-info">
-					<section class="slider">
-						<div class="flexslider">
-							<ul class="slides">
-								<li>
-									<div class=" w3l-info">
-										<div class="col-md-8  info-lleft-side">
-											<h4>Visi</h4>
-											<p>Menjadi Rumah Sakit Pilihan Pertama Yang Berkualitas Prima</p>
-										</div>
-									</div>
-
-								</li>
-								<li>
-									<div class=" w3l-info">
-										<div class="col-md-8 info-lleft-side">
-											<h4>Misi</h4>
-											<p>Memberikan Pelayanan Kesehatan Kepada Masyarakat.
-Memberikan Pelayanan Kesehatan Yang Bermutu Berorientasi Pada Kecepatan, Ketepatan, Keselamatan, Keramahan dan Kenyamanan Berlandaskan Etika Dan Peofesionalisme.
-Memberikan Pelayanan Kesehatan Kepada Masyarakat Industri Serta Masyarakat Malang dan Sekitarnya.</p>
-										</div>
-									
-									</div>
-								</li>
-								<li>
-									<div class=" w3l-info">
-										<div class="col-md-8 info-lleft-side">
-											<h4>Motto</h4>
-											<p>“Kesembuhan & Kepuasan Pasien Adalah Kebahagiaan Kami”</p>
-										</div>
-										
-									</div>
-								</li>
-							</ul>
-						</div>
-					</section>
-				</div>
-			</header>
-		</div>
-		<div class="clearfix"> </div>
-	</div>
-
-	<!-- //header -->
-	<!-- modal -->
-	<div class="modal about-modal fade" id="myModal" tabindex="-1" role="dialog">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-					<h4 class="modal-title">Medically</h4>
-				</div>
-				<div class="modal-body">
-					<div class="out-info">
-						<img src="<?php echo base_url()?>assets/images/g1.jpg?>" alt="" />
-						<p>Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae,
-							eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellu</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- //modal -->
-	
-	<!--about -->
-<div class="col-sm-6">
+			<div class="flexslider-info">
+				<div class="col-sm-6">
     
-   <div class="panel panel-default">
-     <div class="panel-body form-horizontal payment-form">
-	<legend><h1 class="text-center">Form Pendaftaran Kamar Pasien</h1></legend>
-	 <?php echo form_open_multipart('pesanKamar/addKamar'); ?>
-         <?php echo validation_errors(); ?>
+			  	<div class="panel panel-default">
+			    <div class="panel-body form-horizontal payment-form">
+				<legend><h1 class="text-center">Form Pendaftaran Kamar Pasien</h1></legend>
+				 <?php echo form_open_multipart('pesanKamar/addKamar'); ?>
+        		 <?php echo validation_errors(); ?>
 
-        <div class="form-group">
-          <label for="">Nama Kamar : </label>
-          <select class="form-control" name="kamar_kosong">
-            <?php foreach ($kamar as $key) { ?>
-              <option value="<?php echo $key->nama_kamar?>"> <?php echo $key->id_kamar ?> <?php echo $key->nama_kamar?></option>
+      		  <div class="form-group">
+         	 <label for="">Nama Kamar : </label>
+         		 <select class="form-control" name="kamar_kosong">
+          		  <?php foreach ($kamar as $key) { ?>
+             <option value="<?php echo $key->nama_kamar?>"> <?php echo $key->id_kamar ?> <?php echo $key->nama_kamar?></option>
             <?php } ?>
           </select>
         </div>
@@ -195,49 +120,43 @@ Memberikan Pelayanan Kesehatan Kepada Masyarakat Industri Serta Masyarakat Malan
       <div class="form-group">
         <label for="">Tanggal Rawat</label>
         <input type="date" class="form-control" id="tgl" name="tgl" >
-      </div>
-      
-        <!-- <input type="hidden" class="form-control" id="harga" name="harga" value="<?php echo $harga?>">
- -->
+      </div>				</div>
 
-
-      
-
-      
-      <div class="modal-footer">
+            <div class="modal-footer">
         <button type="submit" class="btn btn-primary"><i class="glyphicon glyphicon-plus"></i>  Submit</button>
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
       </div>
       <?php echo form_close(); ?>
       </div>
       </div>
+			</header>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+	  <br>
+      <br>
+            <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+	  <br>
+      <br>
+      <br>
+      <br>
 
-      
-	<!--//about -->
-	<!--services -->
-	
-	<!--//services -->
-	<!--gallery-->
-	
-				
-					
-	<!--//gallery-->
-	<!-- team-->
-	
-					
-
-				
-	<!-- //testimonials-->
-	<!--subscribe-->
-
-	<!--//subscribe-->
-	<!--contact-->
 	<div class="contact" id="contact">
 		<div class="container">
-			<h3 class="title">CONTACT US</h3>
+			<h3 class="title">KONTAK KAMI</h3>
 
 			<div class=" col-md-7 contact-address">
-				<h4>Medically</h4>
+				<h4>RS.HANURA</h4>
 				<div class="para-left">
 					<p>Sebagai rumah sakit pilihan pertama yang berkualitas prima, kami menyediakan berbagai fasilitas layanan sesuai kebutuhan masyarakat dengan akses yang mudah dan ramah. 
 					</p>
@@ -254,13 +173,13 @@ Memberikan Pelayanan Kesehatan Kepada Masyarakat Industri Serta Masyarakat Malan
 					</div>
 					<div class="address-contact-left ">
 						<h5>Email:</h5>
-						<p><span class="fa fa-envelope"></span> <a href="mailto:info@example.com">info@medically.co.id</a></p>
+						<p><span class="fa fa-envelope"></span> <a href="mailto:info@example.com">hanura@gmail.com.co.id</a></p>
 					</div>
 				</div>
 			</div>
-			<div class=" col-md-5 contact-top">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126438.60094834752!2d112.58405792765772!3d-7.977619465897827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd62822063dc2fb%3A0x78879446481a4da2!2sMalang%2C+Malang+City%2C+East+Java%2C+Indonesia!5e0!3m2!1sen!2sin!4v1530497204263" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-			</div>
+			<div class=" col-md-3 col-sm-1 col-xs-1 contact-top">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63338.61717377296!2d112.61791773030875!3d-7.164834963047084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd800504acb3253%3A0x25d71798cd652fb9!2sGresik%2C+Kec.+Gresik%2C+Kabupaten+Gresik%2C+Jawa+Timur!5e0!3m2!1sid!2sid!4v1531216142750" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>	
+		</div>
 
 			<div class="clearfix"> </div>
 
@@ -272,62 +191,21 @@ Memberikan Pelayanan Kesehatan Kepada Masyarakat Industri Serta Masyarakat Malan
 	<!--footer-->
 
 	<div class="footer">
-		<nav>
-			<ul class="nav-buttom">
-				<li><a class="page-scroll" href="<?php echo site_url()?>/pasien/index">Home</a></li>
-				<li><a class="page-scroll scroll" href="#home">About</a></li>
-				<li><a class="page-scroll " href="<?php echo site_url()?>/pasien/layanan">Layanan</a></li>
-				<li><a class="page-scroll " href="<?php echo site_url()?>/pasien/kamar">Daftar Kamar</a></li>
-				<li><a class="page-scroll scroll" href="#contact">Contact</a></li>
-			</ul>
-		</nav>
 		<div class="container">
 		<div class="colr-row col-md-6  ">
 			<div class="col-md-6 col-sm-6 col-xs-6  bottom-head bottm-grid">
-				<h2><a href="index.html">Medically</a></h2>
+				<h2><a href="index.html">HANURA</a></h2>
 				<span class="cap"></span>
 				<div class="clearfix"> </div>
 			</div>
-			
-			<div class="col-md-6 col-sm-6 col-xs-6 copyright bottm-grid">
-				<h3>Follow us</h3>
-				<div class="icons">
-					<ul>
-						<li><a href="#"><span class="fa fa-facebook"></span></a></li>
-						<li><a href="#"><span class="fa fa-twitter"></span></a></li>
-						<li><a href="#"><span class="fa fa-rss"></span></a></li>
-						<li><a href="#"><span class="fa fa-vk"></span></a></li>
-					</ul>
-
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="clearfix"> </div>
-			</div>
-			<div class="colr-row  col-md-6">
-			<div class="col-md-6 col-sm-6 col-xs-6 one bottm-grid">
-				<h3>About us</h3>
-				<p> Visi : Menjadi Rumah Sakit Pilihan Pertama Yang Berkualitas Prima 
-				    Motto : Layanan Prima adalah Komitmen Kami </p>
-				<div class="clearfix"></div>
-			</div>
-			<div class="col-md-6 col-sm-6 col-xs-6 three bottm-grid">
-				<h3>Contact</h3>
-				<div class="addres up-out">
-					<p><span class="fa fa-map-marker icons-left" aria-hidden="true"></span>Malang</p>
-
-					<p><span class="fa fa-phone icons-left" aria-hidden="true"></span>Call us:+9900887766</p>
-
-				</div>
 				<div class="clearfix"> </div>
 			</div>
 			<!-- //Copyright -->
 			<div class="clearfix"> </div>
 		</div>
 		</div>
-	</div>
-	<footer>
-		<p>&copy;2018 Medically. All Rights Reserved</a></p>
+	</div>	<footer>
+		<p>&copy;Rumah Sakit HANURA</a></p>
 	</footer>
 	<!--menu script-->
 	<script type='text/javascript' src='<?php echo base_url()?>assets/js/jquery-2.2.3.min.js'></script>
